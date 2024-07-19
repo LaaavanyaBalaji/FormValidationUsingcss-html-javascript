@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="forms">
+        <h1>REGISTRATION FORM</h1>
+    <form method="post" action="success.html" name="forms" onsubmit="return Valida()">
+
+       <b>First Name:</b> <input name="fname" type="text"><br><br>
+       <b>Last Name:</b> <input name="lname" type="text"><br><br>
+       <b>City:</b> <input name="City" class="city" type="text"><br><br>
+       <b>Mobile-Number:</b> <input name="phno"class="tel" type="tel" pattern="[0-9]{10}"><br><br>
+       <b>Address:</b> 
+        <textarea cols="80" rows="10" name="addr"></textarea><br><br>
+       <button type="submit" >Submit</button><br><br>
+        
+    </form>
+</div>
+
+</body>
+</html>
